@@ -10,7 +10,8 @@
 ! -----------------------------------------------------------------------------
 !
 ! Credits:
-! Based largely on Fanboy's anti-facebook list (http://www.fanboy.co.nz/).
+! Based largely on Fanboy's anti-facebook, EasyPrivacy and Social lists
+! (http://www.fanboy.co.nz/).
 !
 ! Modified by Privacore to contain only rules related to Google.
 !
@@ -24,11 +25,41 @@
 ! and the license.
 !
 ! -----------------------------------------------------------------------------
+
+! Google Analytics
+||google-analytics.com/analytics.js
+||google-analytics.com/batch^
+||google-analytics.com/collect
+||google-analytics.com/cx/api.js
+||google-analytics.com/ga_exp.js
+||google-analytics.com/gtm/js?
+||google-analytics.com/internal/analytics.js
+||google-analytics.com/internal/collect^
+||google-analytics.com/plugins/
+||google-analytics.com/r/collect^
+||google-analytics.com/siteopt.js?
+
+! Google tag manager - this may break some sites.
+||googletagmanager.com/gtag/$third-party
+||googletagmanager.com/gtm.js?$third-party
+
+
 !
-! Thirdparty Filters
+! Third-party Filters
 !
 ||google.com/js/client:plusone.js$third-party
 ||google.com/js/plusone.js$third-party
+
+||apis.google.com/*/socialgraph/$third-party
+||apis.google.com/_/apps-static/_/js/gapi/*plusone/$third-party
+||apis.google.com/_/scs/apps-static/*=page,plusone/$third-party
+||apis.google.com/js/platform.js$third-party
+||apis.google.com^*/widget/render/badge?$third-party
+||apis.google.com^*/widget/render/community?$third-party
+||apis.google.com^*/widget/render/follow?$third-party
+||apis.google.com^*/widget/render/page?$third-party
+||apis.google.com^*/widget/render/person?$third-party
+
 !
 ! Whitelist Filters
 !
