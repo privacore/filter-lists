@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: cb4sHmT+US5diEZi+DPVQg
+! Checksum: L1RAwkhSGojZFnndYOhmLg
 ! Title: Adult Site List by Findx
 ! Updated: 22 Jun 2018
 ! This list expires after 7 days
@@ -181900,7 +181900,6 @@
 ||youtube-funny.blogspot.com^
 ||youtube-porno.net^
 ||youtube-pornos.com^
-||youtube.com^
 ||youtube18.net^
 ||youtube3x.com^
 ||youtube4porn.com^
